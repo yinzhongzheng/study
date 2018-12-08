@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.core.env.MutablePropertySources</OriginalElement>
+  <nodes>
+    <node x="0.0" y="160.0">org.springframework.core.env.MutablePropertySources</node>
+    <node x="28.0" y="80.0">org.springframework.core.env.PropertySources</node>
+    <node x="56.0" y="0.0">java.lang.Iterable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.core.env.PropertySources" target="java.lang.Iterable">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.springframework.core.env.MutablePropertySources" target="org.springframework.core.env.PropertySources">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="112.0" y="95.0" />
+  <SelectedNodes>
+    <node>org.springframework.core.env.MutablePropertySources</node>
+    <node>java.lang.Iterable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="license-server:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/license_server_jar</output-path>
+    <root id="archive" name="license-server.jar">
+      <element id="module-output" name="license-server" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/schlichtherle/truelicense/truelicense-xml/1.33/truelicense-xml-1.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/de/schlichtherle/truelicense/truelicense-core/1.33/truelicense-core-1.33.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.6/commons-codec-1.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

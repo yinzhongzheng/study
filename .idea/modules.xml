@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/design-method/design-method.iml" filepath="$PROJECT_DIR$/design-method/design-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/license-client/license-client.iml" filepath="$PROJECT_DIR$/license-client/license-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/license-server/license-server.iml" filepath="$PROJECT_DIR$/license-server/license-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring/spring.iml" filepath="$PROJECT_DIR$/spring/spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
+    </modules>
+  </component>
+</project>

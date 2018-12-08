@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="design-method" />
+        <module name="license-client" />
+        <module name="license-server" />
+        <module name="proxy" />
+        <module name="spring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="design-method" target="1.5" />
+      <module name="license-client" target="1.5" />
+      <module name="license-server" target="1.5" />
+      <module name="proxy" target="1.5" />
+      <module name="spring" target="1.5" />
+      <module name="study" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
