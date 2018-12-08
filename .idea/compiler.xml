@@ -11,6 +11,7 @@
         <module name="license-server" />
         <module name="proxy" />
         <module name="spring" />
+        <module name="thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="proxy" target="1.5" />
       <module name="spring" target="1.5" />
       <module name="study" target="1.5" />
+      <module name="thread" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
