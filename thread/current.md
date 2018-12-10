@@ -6,6 +6,7 @@
 1. 保证多线程的**可见性**
 2. 禁止一部分的**重排序**。 
 3. volatile 是轻量级的synchronized
+4. 对任意单个的volatile的读/写是原子性的（volatile=1/return volatile），但是符合操作不支持。(volatile++操作)
 #### 特性
 >对于volatile来说具有以下特性
 >1.volatile标记的变量在读操作的时候，一定是最新的值。
@@ -80,7 +81,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 1. 编译器优化的重排序。编译器在不改变单线程程序语义的前提下，可以重新安排语句的执行顺序。
 2. 指令级并行的重排序。现代处理器采用了指令级并行技术（Instruction-LevelParallelism，ILP）来将多条指令重叠执行。如果不存在数据依赖性，处理器可以改变语句对应机器指令的执行顺序。
 3. 内存系统的重排序。由于处理器使用缓存和读/写缓冲区，这使得加载和存储操作看上去可能是在乱序执
-![](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/howCompile.png)
+![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/howCompile.png)
 * jVM通过在编译器编译时，使用内存屏障指令，来禁止特定类型的处理器重排序
 * JVM 内存屏障屏障指令 
 ```text
@@ -157,11 +158,14 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
  在一些32位的处理器上，如果要求对64位数据的写操作具有原子性，会有比较大的开销。为了照顾这种处理器，Java语言规范鼓励但不强求JVM对64位的long型变量和double型变量的写操作具有原子性。当JVM在这种处理器上运行时，可能会把一个64位long/double型变量的写操作拆分为两个32位的写操作来执行。这两个32位的写操作可能会被分配到不同的总线事务中执行，此时对这个64位变量的写操作将不具有原子
 
 * 处理器写long/double的操作流程
-![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64writeAndRead.png)
+![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64writeAndRead.png)
 
 >JDK 1.5之前,处理器读取long/double的操作流程
- 处理器写long/double的操作流程
-![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64Read.png)
+
+>处理器写long/double的操作流程
+
+![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64Read.png)
+
 >JDK 1.5之后,JMM要求读操作必须在单个读事务中完成，保证读操作的原子性;
  仅仅允许把64位的long/double拆分成两个32位的写操作来执行，那么这两个写操作就破坏了写操作的原子性
 
