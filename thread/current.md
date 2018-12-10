@@ -6,6 +6,12 @@
 1. 保证多线程的**可见性**
 2. 禁止一部分的**重排序**。 
 3. volatile 是轻量级的synchronized
+#### 特性
+>对于volatile来说具有以下特性
+>1.volatile标记的变量在读操作的时候，一定是最新的值。
+>为什么?
+1、lock前缀的支持,volatile规定每次修改操作必须刷新到内存，读操作也要到内存中去取新值。
+2、总线的支持，多条总线事务同一时刻同一时刻只有一条能获得访问内存的权限，因此，只要有线程修改了，那么读操作一定取到的是新值。
 #### 原理
 ```
 instance = new Singleton(); // instance是volatile变量
@@ -142,7 +148,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
  作重排序，可能会改变程序的执行结果。
  
 ### 处理器总线机制
-总线工作机制
+>总线工作机制
 ![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/zongxian.png)
 **多个处理器需要对内存进行读取操作的时候,都会向总线发起总线事务。这时候会出现竞争，总线仲裁保证了当前只会有一条总线事务会获取访问内存的权限。这样就保证了内存读写的原子性**
 
@@ -154,9 +160,9 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 ![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64writeAndRead.png)
 
 >JDK 1.5之前,处理器读取long/double的操作流程
-* 处理器写long/double的操作流程
+ 处理器写long/double的操作流程
 ![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64Read.png)
 >JDK 1.5之后,JMM要求读操作必须在单个读事务中完成，保证读操作的原子性;
  仅仅允许把64位的long/double拆分成两个32位的写操作来执行，那么这两个写操作就破坏了写操作的原子性
- 
+
 
