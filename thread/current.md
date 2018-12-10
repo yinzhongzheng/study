@@ -141,7 +141,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
  语义允许对存在控制依赖的操作做重排序的原因）；但在多线程程序中，对存在控制依赖的操
  作重排序，可能会改变程序的执行结果。
  
-###处理器总线机制
+### 处理器总线机制
 总线工作机制
 ![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/zongxian.png)
 **多个处理器需要对内存进行读取操作的时候,都会向总线发起总线事务。这时候会出现竞争，总线仲裁保证了当前只会有一条总线事务会获取访问内存的权限。这样就保证了内存读写的原子性**
@@ -149,12 +149,14 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 >JMM不保证对64位的long型和double型变量的写操作具有原子性，而顺序一致性模型保
  证对所有的内存读/写操作都具有原子性。
  在一些32位的处理器上，如果要求对64位数据的写操作具有原子性，会有比较大的开销。为了照顾这种处理器，Java语言规范鼓励但不强求JVM对64位的long型变量和double型变量的写操作具有原子性。当JVM在这种处理器上运行时，可能会把一个64位long/double型变量的写操作拆分为两个32位的写操作来执行。这两个32位的写操作可能会被分配到不同的总线事务中执行，此时对这个64位变量的写操作将不具有原子
->JDK 1.5之前
 
-**处理器1**
+* 处理器写long/double的操作流程
 ![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64writeAndRead.png)
 
- 
-
+>JDK 1.5之前,处理器读取long/double的操作流程
+* 处理器写long/double的操作流程
+![Alt](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64Read.png)
+>JDK 1.5之后,JMM要求读操作必须在单个读事务中完成，保证读操作的原子性;
+ 仅仅允许把64位的long/double拆分成两个32位的写操作来执行，那么这两个写操作就破坏了写操作的原子性
  
 
