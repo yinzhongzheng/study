@@ -149,7 +149,7 @@ D-->E[最终执行的指令排序(处理器重排序)]
  
 ###处理器总线机制
 总线工作机制
-![](md_img\zongxian.png)
+![ALT](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/zongxian.png)
 **多个处理器需要对内存进行读取操作的时候,都会向总线发起总线事务。这时候会出现竞争，总线仲裁保证了当前只会有一条总线事务会获取访问内存的权限。这样就保证了内存读写的原子性**
 
 >JMM不保证对64位的long型和double型变量的写操作具有原子性，而顺序一致性模型保
