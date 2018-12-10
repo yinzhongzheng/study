@@ -24,13 +24,16 @@ public class VolatileUnSafe {
     public static void main(String[] args) {
         ThreadUnSafe safe = new ThreadUnSafe();
         Thread t = new Thread(safe);
+        Thread t2 = new Thread(safe);
         t.start();
+        t2.start();
         try {
-            Thread.sleep(50);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
         safe.flag = false;
+        System.out.println("==========================");
         try {
             Thread.sleep(5000);
         } catch (InterruptedException e) {
