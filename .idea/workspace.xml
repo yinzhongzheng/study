@@ -8,6 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e3326d85-bb03-403c-8ac4-dec422591caa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-md/jmm.md" afterPath="$PROJECT_DIR$/1-md/jmm.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-md/thread.md" afterPath="$PROJECT_DIR$/1-md/thread.md" />
     </list>
     <ignored path="$PROJECT_DIR$/design-method/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
@@ -65,24 +67,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jmm.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="jmm.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1-md/jmm.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="21">
-                <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+                <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
                 <folding>
-                  <marker date="1544601136966" expanded="true" signature="4539:4778" ph="{...}" />
-                  <marker date="1544601136966" expanded="true" signature="4584:4722" ph="//..." />
-                  <marker date="1544601136966" expanded="true" signature="4815:4935" ph="{...}" />
-                  <marker date="1544601136966" expanded="true" signature="4991:5082" ph="{...}" />
-                  <marker date="1544601136966" expanded="false" signature="6487:6497" ph=" { " />
-                  <marker date="1544601136966" expanded="false" signature="6508:6514" ph=" }" />
-                  <marker date="1544601136966" expanded="true" signature="6888:7283" ph="{...}" />
-                  <marker date="1544601136966" expanded="true" signature="7771:8074" ph="{...}" />
-                  <marker date="1544601136966" expanded="true" signature="8252:8356" ph="{...}" />
-                  <marker date="1544601136966" expanded="false" signature="8411:8425" ph=" { " />
-                  <marker date="1544601136966" expanded="false" signature="8476:8486" ph=" }" />
+                  <marker date="1544601189236" expanded="true" signature="4541:4780" ph="{...}" />
+                  <marker date="1544601189236" expanded="true" signature="4586:4724" ph="//..." />
+                  <marker date="1544601189236" expanded="true" signature="4817:4937" ph="{...}" />
+                  <marker date="1544601189236" expanded="true" signature="4993:5084" ph="{...}" />
+                  <marker date="1544601189236" expanded="false" signature="6489:6499" ph=" { " />
+                  <marker date="1544601189236" expanded="false" signature="6510:6516" ph=" }" />
+                  <marker date="1544601189236" expanded="true" signature="6890:7285" ph="{...}" />
+                  <marker date="1544601189236" expanded="true" signature="7773:8076" ph="{...}" />
+                  <marker date="1544601189236" expanded="true" signature="8254:8358" ph="{...}" />
+                  <marker date="1544601189236" expanded="false" signature="8413:8427" ph=" { " />
+                  <marker date="1544601189236" expanded="false" signature="8478:8488" ph=" }" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -103,12 +105,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="thread.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-md/thread.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="92">
-                <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -163,8 +165,8 @@
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FinalTest.java" />
         <option value="$PROJECT_DIR$/thread/current.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/1-md/thread.md" />
         <option value="$PROJECT_DIR$/1-md/jmm.md" />
+        <option value="$PROJECT_DIR$/1-md/thread.md" />
       </list>
     </option>
   </component>
@@ -773,7 +775,7 @@
       <workItem from="1544540913610" duration="2687000" />
       <workItem from="1544577568982" duration="2131000" />
       <workItem from="1544580478195" duration="8181000" />
-      <workItem from="1544600828156" duration="298000" />
+      <workItem from="1544600828156" duration="368000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544253969087</created>
@@ -887,11 +889,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544601081293</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="#">
+      <created>1544601159949</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544601159949</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65760000" />
+    <option name="totallyTimeSpent" value="65830000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -975,7 +984,8 @@
     <MESSAGE value="修该md" />
     <MESSAGE value="jMM-double-check-locking" />
     <MESSAGE value="更改目录结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="更改目录结构" />
+    <MESSAGE value="#" />
+    <option name="LAST_COMMIT_MESSAGE" value="#" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1340,17 +1350,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-md/thread.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="92">
-            <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1377,20 +1376,31 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="21">
-            <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
             <folding>
-              <marker date="1544601136966" expanded="true" signature="4539:4778" ph="{...}" />
-              <marker date="1544601136966" expanded="true" signature="4584:4722" ph="//..." />
-              <marker date="1544601136966" expanded="true" signature="4815:4935" ph="{...}" />
-              <marker date="1544601136966" expanded="true" signature="4991:5082" ph="{...}" />
-              <marker date="1544601136966" expanded="false" signature="6487:6497" ph=" { " />
-              <marker date="1544601136966" expanded="false" signature="6508:6514" ph=" }" />
-              <marker date="1544601136966" expanded="true" signature="6888:7283" ph="{...}" />
-              <marker date="1544601136966" expanded="true" signature="7771:8074" ph="{...}" />
-              <marker date="1544601136966" expanded="true" signature="8252:8356" ph="{...}" />
-              <marker date="1544601136966" expanded="false" signature="8411:8425" ph=" { " />
-              <marker date="1544601136966" expanded="false" signature="8476:8486" ph=" }" />
+              <marker date="1544601189236" expanded="true" signature="4541:4780" ph="{...}" />
+              <marker date="1544601189236" expanded="true" signature="4586:4724" ph="//..." />
+              <marker date="1544601189236" expanded="true" signature="4817:4937" ph="{...}" />
+              <marker date="1544601189236" expanded="true" signature="4993:5084" ph="{...}" />
+              <marker date="1544601189236" expanded="false" signature="6489:6499" ph=" { " />
+              <marker date="1544601189236" expanded="false" signature="6510:6516" ph=" }" />
+              <marker date="1544601189236" expanded="true" signature="6890:7285" ph="{...}" />
+              <marker date="1544601189236" expanded="true" signature="7773:8076" ph="{...}" />
+              <marker date="1544601189236" expanded="true" signature="8254:8358" ph="{...}" />
+              <marker date="1544601189236" expanded="false" signature="8413:8427" ph=" { " />
+              <marker date="1544601189236" expanded="false" signature="8478:8488" ph=" }" />
             </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-md/thread.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
