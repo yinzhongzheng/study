@@ -177,6 +177,6 @@
       }     
    ```
 >感悟：当wait的线程重新唤醒，其实这个wait/notify的流程就完成了，该线程可以去竞争锁。
-![wait和notify的运行过程](md_img\waitAndNotify.png)
+![wait和notify的运行过程](md_img/waitAndNotify.png)
 
   

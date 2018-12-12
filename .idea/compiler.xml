@@ -23,7 +23,7 @@
       <module name="proxy" target="1.5" />
       <module name="spring" target="1.5" />
       <module name="study" target="1.5" />
-      <module name="thread" target="1.5" />
+      <module name="thread" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
