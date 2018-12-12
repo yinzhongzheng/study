@@ -21,6 +21,8 @@ public class volatileTest {
 
 
     public static void main(String[] args) {
+        Thread.currentThread().getThreadGroup();
+
         Thread t1 = new Thread(new Runnable() {
             public void run() {
                 while(bean.flag) {
