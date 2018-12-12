@@ -266,9 +266,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
         }
     }
 ```
-![类的初始化](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/类的初始化.jpeg)
-
-
+![类的初始化](https://github.com/yinzhongzheng/study/blob/master/thread/md_img/class-init.png)
 
 
 
