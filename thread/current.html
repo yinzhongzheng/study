@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>current.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+	font-size: 14px;
+	padding: 0 12px;
+	line-height: 22px;
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	color: #4080D0;
+	text-decoration: none;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+h1 code,
+h2 code,
+h3 code,
+h4 code,
+h5 code,
+h6 code {
+	font-size: inherit;
+	line-height: auto;
+}
+
+a:hover {
+	color: #4080D0;
+	text-decoration: underline;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left: 5px solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 14px;
+	line-height: 19px;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+.mac code {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+/** Theming */
+
+.vscode-light,
+.vscode-light pre code {
+	color: rgb(30, 30, 30);
+}
+
+.vscode-dark,
+.vscode-dark pre code {
+	color: #DDD;
+}
+
+.vscode-high-contrast,
+.vscode-high-contrast pre code {
+	color: white;
+}
+
+.vscode-light code {
+	color: #A31515;
+}
+
+.vscode-dark code {
+	color: #D7BA7D;
+}
+
+.vscode-light pre:not(.hljs),
+.vscode-light code > div {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre:not(.hljs),
+.vscode-dark code > div {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre:not(.hljs),
+.vscode-high-contrast code > div {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+.vscode-light blockquote,
+.vscode-dark blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.vscode-high-contrast blockquote {
+	background: transparent;
+	border-color: #fff;
+}
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family:  "Meiryo", "Segoe WPC", "Segoe UI", "SFUIText-Light", "HelveticaNeue-Light", sans-serif, "Droid Sans Fallback";
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+</head>
+<body>
+<h1 id="java%E5%B9%B6%E5%8F%91%E5%92%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%80%BB%E7%BB%93">Java并发和多线程基础总结</h1>
+<h2 id="%E5%9F%BA%E7%A1%80volatile%E5%92%8Csynchronized">基础<strong>volatile</strong>和<strong>synchronized</strong></h2>
+<h3 id="volatile">volatile</h3>
+<h4 id="%E5%8A%9F%E8%83%BD">功能</h4>
+<ol>
+<li>保证多线程的<strong>可见性</strong></li>
+<li>禁止一部分的<strong>重排序</strong>。</li>
+<li>volatile 是轻量级的synchronized</li>
+<li>对任意单个的volatile的读/写是原子性的（volatile=1/return volatile），但是复合型操作不支持。(volatile++操作)</li>
+</ol>
+<h4 id="%E7%89%B9%E6%80%A7">特性</h4>
+<blockquote>
+<p>对于volatile来说具有以下特性
+1.volatile标记的变量在读操作的时候，一定是最新的值。
+为什么?
+1、lock前缀的支持,volatile规定每次修改操作必须刷新到内存，读操作也要到内存中去取新值。
+2、总线的支持，多条总线事务同一时刻同一时刻只有一条能获得访问内存的权限，因此，只要有线程修改了，那么读操作一定取到的是新值。
+####内存语意
+读：当读一个volatile变量时，JMM会把该线程对应的本地内存置为无效。线程接下来将从主内存中读取共享变
+写：当写一个volatile变量时，JMM会把该线程对应的本地内存中的共享变量值刷新到主内</p>
+</blockquote>
+<h4 id="%E5%8E%9F%E7%90%86">原理</h4>
+<pre class="hljs"><code><div>instance = new Singleton(); // instance是volatile变量
+0x01a3de1d: movb $0×0,0×1104800(%esi);0x01a3de24: **lock** addl $0×0,(%esp);
+</div></code></pre>
+<p><em>lock</em>前缀的指令在多核处理器下会触发两种操作</p>
+<ol>
+<li>将当前处理器缓存行的数据写回到系统内存。</li>
+<li>这个写回内存的操作会使在其他CPU里缓存了该内存地址的数据无效。</li>
+</ol>
+<p><em>依赖CPU的缓存一致性的支持</em></p>
+<h4 id="volatile%E8%A7%84%E5%88%99%E8%A1%A8">volatile规则表</h4>
+<blockquote>
+<p>当第二个操作是volatile写时，不管第一个操作是什么，都不能重排序。这个规则确保volatile写之前的操作不会被编译器重排序到volatile写之后。<br>
+当第一个操作是volatile读时，不管第二个操作是什么，都不能重排序。这个规则确保volatile读之后的操作不会被编译器重排序到volatile读之前。<br>
+当第一个操作是volatile写，第二个操作是volatile读时，不能重排</p>
+</blockquote>
+<blockquote>
+<p>在每个volatile写操作的前面插入一个StoreStore屏障。<br>
+在每个volatile写操作的后面插入一个StoreLoad屏障。<br>
+在每个volatile读操作的后面插入一个LoadLoad屏障。<br>
+在每个volatile读操作的后面插入一个LoadStore屏障。</p>
+</blockquote>
+<h2 id="synchronized">synchronized</h2>
+<ol>
+<li>原子性。</li>
+<li>由于线程同步，某一时刻，只能一个线程操作共享变量，也就保证了多线程间的<strong>可见性</strong></li>
+</ol>
+<h3 id="%E4%BD%BF%E7%94%A8">使用</h3>
+<ul>
+<li>普通同步方法:锁是this锁</li>
+<li>代码块:锁是该对象锁</li>
+<li>静态同步方法:锁是当前Class对象锁</li>
+</ul>
+<h3 id="%E5%8E%9F%E7%90%86">原理</h3>
+<ul>
+<li>都是使用Monitor(监视器)对象来操作的
+monitorenter在编译时插入到synchronized的开始位置,monitorexit在编译时插入在synchronized的结束位置和者异常结束的位置。</li>
+<li>任何对象都是锁对象，那么任何对象都与一个monitor相关联，当获取到monitor，该monitor就会处于锁定状态。当指令执行到monitorenter时，就会去尝试获取该monitor的所有权。</li>
+</ul>
+<h2 id="%E5%8E%9F%E5%AD%90%E6%80%A7">原子性</h2>
+<ul>
+<li>通过锁来实现一些列操作的原子性。但是性能差，会造成阻塞，增加性能消耗。</li>
+<li>通过CAS(compare and swap)来实现，此实现针对于赋值操作。i++，
+<ul>
+<li>通过E(期望值,也就是缓存/本地内存/工作内存的副本),V(当前值)来操作。通过E和主内存的值进行比较，如果相等的话，就会将新值赋值给当前值。</li>
+<li>问题，会造成ABA的问题，当其他线程将共享变量的值变换为B，然后再该为A，那么该线程去将本地内存的值刷到主内存的时候，将会执行成功。但是结果可能是错的。</li>
+</ul>
+</li>
+<li>通过CAS+version的方式来解决ABA的问题。
+<ul>
+<li>也就是，共享变量V的值为 1A-&gt;2B-&gt;3A 那么通过此版本号去控制，就不会巧妙的去除ABA问题。</li>
+</ul>
+</li>
+<li>注意，CAS只能处处理一个变量，如果多个可以使用ij = 1a的方式，AtomicReference保证引用对象的原子性。</li>
+<li>CAS 不需要添加锁，但是循环验证会增加CPU的消耗。</li>
+</ul>
+<h3 id="%E6%A0%B8%E5%BF%83%E4%BB%A3%E7%A0%81">核心代码</h3>
+<ul>
+<li>
+<p>CAS实现操作,CASXXXX方法就是CAS操作。Unsafe.class 操作c代码。</p>
+<p>do{
+N = E+1;
+}while(CASXXXX((E,N));</p>
+</li>
+</ul>
+<h3 id="java-concurrent%E5%8C%85%E4%B8%8B%E7%9A%84atomic%E7%B1%BB">java concurrent包下的atomic类</h3>
+<pre><code>AtomicInteger  AtomicBoolean...（CAS,会出现BAB的问题）
+AtomicStampedReference 解决了CAS的ABA的问题
+</code></pre>
+<h2 id="java%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B">Java内存模型</h2>
+<h3 id="%E6%A6%82%E5%BF%B5">概念</h3>
+<ul>
+<li>Java Memory Model(JMM)决定了一个线程对共享变量做出的修改<em>何时</em>对另一个线程可见*。</li>
+<li>每一个线程对都有一块儿<em>本地内存</em>（本地内存是JVM的一个抽象概念，并不是真实存在的，它涵盖了缓存、写缓冲区、寄存器以及其它硬件和编译器优化）
+本地内存存放的是用以<em>读/写的共享变量在主内存的一个副本</em></li>
+<li>多线程通信</li>
+</ul>
+<pre class="hljs"><code><div>    线程A--&gt;本地内存-刷新-&gt;主内存
+      |      x=1       x=0=&gt;x=1
+      |
+      |线程A发送消息到线程B
+      |
+    线程B-取消息-&gt;主内存
+           |      x=1
+           |更新
+           |1
+         本地内存
+           x=1
+</div></code></pre>
+<h3 id="%E9%87%8D%E6%8E%92%E5%BA%8F">重排序</h3>
+<h4 id="%E6%A6%82%E5%BF%B5">概念</h4>
+<ol>
+<li>编译器优化的重排序。编译器在不改变单线程程序语义的前提下，可以重新安排语句的执行顺序。</li>
+<li>指令级并行的重排序。现代处理器采用了指令级并行技术（Instruction-LevelParallelism，ILP）来将多条指令重叠执行。如果不存在数据依赖性，处理器可以改变语句对应机器指令的执行顺序。</li>
+<li>内存系统的重排序。由于处理器使用缓存和读/写缓冲区，这使得加载和存储操作看上去可能是在乱序执
+<img src="https://github.com/yinzhongzheng/study/blob/master/thread/md_img/howCompile.png" alt="ALT"></li>
+</ol>
+<ul>
+<li>jVM通过在编译器编译时，使用内存屏障指令，来禁止特定类型的处理器重排序</li>
+<li>JVM 内存屏障屏障指令</li>
+</ul>
+<pre class="hljs"><code><div>	StoreStore Barriers：写写屏障
+	LoadStore Barriers：读写屏障
+	StoreLoad Barriers：写读屏障
+</div></code></pre>
+<ul>
+<li>示例：
+<ol>
+<li>Load1;LoadLoad;Load2;</li>
+<li>Store1;StoreStore;Store2;</li>
+<li>Load1;LoadStore;Store2;</li>
+<li>Store1;StoreLoad;Load2;</li>
+</ol>
+</li>
+<li>写读(StoreLoad)屏障能完成上面3种的效果
+<ol>
+<li>Store1对其他处理器可见，即将本地内存变量刷新到主内存操作，必须要在Load2及Load2后面的指令先执行;</li>
+<li>StoreLoad Barriers会使在该屏障之前的所有内存访问指令（Store和Load）完成之后，才执行屏障之后的内存访问指令</li>
+</ol>
+</li>
+</ul>
+<h3 id="happens-before">happens-before</h3>
+<ul>
+<li>解释 A操作-----&gt;B操作
+<ul>
+<li>表示A操作的结果对B操作可见 &amp;&amp; A操作的按顺序排在B操作之前 &amp;&amp; 并不是所有的操作都在后续操作之前,取决于数据的<strong>依赖性</strong></li>
+</ul>
+</li>
+<li>三种比较常见的happens-before规则
+<ol>
+<li>一个线程中的前面一个操作必定happens-before该操作的后续操作。（重排序取决于数据的依赖性）</li>
+<li>Monitor加锁happens-before解锁之前</li>
+<li>volatile修饰的变量，写操作必定happens-before后续对该变量的操作</li>
+</ol>
+</li>
+</ul>
+<h3 id="as-if-serial">as-if-serial</h3>
+<p>无论编译器和处理器怎么重排序优化，必须要保证<strong>单线程</strong>情况下结果不能改变。<br>
+<strong>其实java程序并不是顺序执行的。</strong><br>
+<strong>在不改变程序执行结果的前提下，尽可能提高并行度</strong></p>
+<h3 id="%E9%87%8D%E6%8E%92%E5%BA%8F%E5%AF%B9%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%BD%B1%E5%93%8D">重排序对多线程的影响</h3>
+<pre class="hljs"><code><div>    <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Test</span></span>{
+        <span class="hljs-keyword">int</span> a;
+        <span class="hljs-keyword">boolean</span> flag = <span class="hljs-keyword">false</span>;
+        
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">read</span><span class="hljs-params">()</span></span>{
+            <span class="hljs-comment">//控制依赖关系</span>
+            <span class="hljs-keyword">if</span> (flag){<span class="hljs-comment">//操作1 flag可能读不到true 所以就不会执行下面的操作</span>
+                <span class="hljs-comment">// ===&gt;分解 </span>
+                <span class="hljs-comment">// 操作21 int temp = a+1;  </span>
+                <span class="hljs-comment">// 操作22 int c = temp</span>
+                <span class="hljs-keyword">int</span> c = a+<span class="hljs-number">1</span>;
+            }   
+        }
+        
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">write</span><span class="hljs-params">()</span></span>{
+            a = <span class="hljs-number">1</span>;<span class="hljs-comment">//操作3</span>
+            flag = <span class="hljs-number">0</span>;<span class="hljs-comment">//操作4 </span>
+            <span class="hljs-comment">// 3,4的刷新到主内存的时机未知，有可能是2和4批量刷新至主内存，也有可能是分开刷。</span>
+        }
+        
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">main</span><span class="hljs-params">(String[] args)</span></span>{
+          Thread t2;<span class="hljs-comment">//执行write()方法 操作 3、4</span>
+          Thread t1;<span class="hljs-comment">//执行read()方法 操作1、2</span>
+        }
+    }
+</div></code></pre>
+<blockquote>
+<p>t2的执行顺序: 3,4 4,3
+t1的执行顺序  21 1 22 1 21 22</p>
+</blockquote>
+<blockquote>
+<p>最终导致的结果：t2的flag可能会读到false,c的值可能是0,读取线程将会出现和期望不一致的情况</p>
+</blockquote>
+<blockquote>
+<p>在单线程程序中，对存在控制依赖的操作重排序，不会改变执行结果（这也是as-if-serial
+语义允许对存在控制依赖的操作做重排序的原因）；但在多线程程序中，对存在控制依赖的操
+作重排序，可能会改变程序的执行结果。</p>
+</blockquote>
+<h3 id="%E5%A4%84%E7%90%86%E5%99%A8%E6%80%BB%E7%BA%BF%E6%9C%BA%E5%88%B6">处理器总线机制</h3>
+<blockquote>
+<p>总线工作机制
+<img src="https://github.com/yinzhongzheng/study/blob/master/thread/md_img/zongxian.png" alt="">
+<strong>多个处理器需要对内存进行读取操作的时候,都会向总线发起总线事务。这时候会出现竞争，总线仲裁保证了当前只会有一条总线事务会获取访问内存的权限。这样就保证了内存读写的原子性</strong></p>
+</blockquote>
+<blockquote>
+<p>JMM不保证对64位的long型和double型变量的写操作具有原子性，而顺序一致性模型保
+证对所有的内存读/写操作都具有原子性。
+在一些32位的处理器上，如果要求对64位数据的写操作具有原子性，会有比较大的开销。为了照顾这种处理器，Java语言规范鼓励但不强求JVM对64位的long型变量和double型变量的写操作具有原子性。当JVM在这种处理器上运行时，可能会把一个64位long/double型变量的写操作拆分为两个32位的写操作来执行。这两个32位的写操作可能会被分配到不同的总线事务中执行，此时对这个64位变量的写操作将不具有原子</p>
+</blockquote>
+<ul>
+<li>处理器写long/double的操作流程
+<img src="https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64writeAndRead.png" alt="ALT"></li>
+</ul>
+<blockquote>
+<p>JDK 1.5之前,处理器读取long/double的操作流程</p>
+</blockquote>
+<blockquote>
+<p>处理器写long/double的操作流程
+<img src="https://github.com/yinzhongzheng/study/blob/master/thread/md_img/64Read.png" alt="ALT"></p>
+</blockquote>
+<blockquote>
+<p>JDK 1.5之后,JMM要求读操作必须在单个读事务中完成，保证读操作的原子性;
+仅仅允许把64位的long/double拆分成两个32位的写操作来执行，那么这两个写操作就破坏了写操作的原子性</p>
+</blockquote>
+<h3 id="%E9%94%81">锁</h3>
+<ul>
+<li>
+<p>锁释放和获取的内存定义</p>
+<blockquote>
+<p>前提：事务总线，保证读写的原子性
+释放：在释放锁的时候，JMM会将本地内存中的共享变量刷新到主内存
+获取：在获取锁时，JMM会将本地内存的共享变量置为无效，从而被Monitor保护的临界区代码必须从主内存读取共享变量。</p>
+</blockquote>
+</li>
+<li>
+<p>总结</p>
+<ol>
+<li>线程A释放一个锁，实质上是线程A向接下来将要获取这个锁的某个线程发出了（线程A对共享变量所做修改的）消息。</li>
+<li>线程B获取一个锁，实质上是线程B接收了之前某个线程发出的（在释放这个锁之前对共享变量所做修改的）消息。</li>
+<li>线程A释放锁，随后线程B获取这个锁，这个过程实质上是线程A通过主内存向线程B发送消。</li>
+</ol>
+</li>
+</ul>
+<h3 id="final%E5%86%85%E5%AD%98%E8%AF%AD%E6%84%8F">final内存语意</h3>
+<blockquote>
+<p>1）在构造函数内对一个final域的写入，与随后把这个被构造对象的引用赋值给一个引用
+变量，这两个操作之间不能重排序。
+2）初次读一个包含final域的对象的引用，与随后初次读这个final域，这两个操作之间不能
+重排序</p>
+</blockquote>
+<ul>
+<li>final域不能从构造方法中溢出。</li>
+</ul>
+<pre class="hljs"><code><div>class A{
+    final int a;
+    public A(int a){
+        this.a = a;
+    }
+   }
+   //Thread 1 A a = new A(1);
+   //Thread2 if(a!=null){a.a++}这里可能会出现问题
+   //this.a = a;在构造方法中可能逃逸，在实例化对象之后才去执行该赋值语句
+</div></code></pre>
+<p><strong>多线程情况下，取到的a的值可能是初始值0，造成线程不安全</strong>
+<strong>final的重排序规则，禁止溢出构造方法之外</strong></p>
+<h3 id="%E5%8F%8C%E9%87%8D%E6%A3%80%E6%9F%A5%E9%94%81double-checked-locking">双重检查锁(Double-Checked-Locking)</h3>
+<pre class="hljs"><code><div>    <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DoubleCheckLocking</span></span>{
+    		<span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> DoubleCheckLocking singleInstance;
+    		<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DoubleCheckLocking <span class="hljs-title">getInstance</span><span class="hljs-params">()</span></span>{
+    			<span class="hljs-keyword">if</span>(<span class="hljs-keyword">null</span> == singleInstance){<span class="hljs-comment">//1 第一次check</span>
+    				<span class="hljs-keyword">synchronized</span>(singleInstance){<span class="hljs-comment">//2 同步</span>
+    					<span class="hljs-keyword">if</span>(<span class="hljs-keyword">null</span> == singleInstance){<span class="hljs-comment">//3 第二次check</span>
+    						singleInstance = <span class="hljs-keyword">new</span> DoubleCheckLocking();<span class="hljs-comment">//4 1.分配内存空间 2.初始化对象 3.将对象指向刚分配的内存地址//不是原子操作</span>
+    					}
+    				}
+    			}
+    			<span class="hljs-comment">//5 可能singleInstance 拥有一块内存地址，但是该内存空间还没有初始化完成，看起来singleInstance是!=null的，但是初始化还没结束</span>
+    			<span class="hljs-keyword">return</span> singleInstance;
+    		}
+    	}
+</div></code></pre>
+<ul>
+<li>由于重排序的影响(正确顺序是 1、2、3)</li>
+</ul>
+<blockquote>
+<p>memory = allocate(); // 1：分配对象的内存空间
+instance = memory; // 3：设置instance指向刚分配的内存地址
+// 注意，此时对象还没有被初始化！
+ctorInstance(memory); // 2：初始化对象</p>
+</blockquote>
+<blockquote>
+<p><strong>解决方案</strong>
+1.不允许2、3重排序
+2.允许2、3重排序，但是不允许其他线程看到这个重排序</p>
+</blockquote>
+<ul>
+<li>不允许2、3重排序</li>
+</ul>
+<blockquote>
+<p>jdk 1.5以上版本，将singleInstance加上volatile关键字,可以静止重排序自身重排序，之前、之后的操作不能在volatile之后或之前执行</p>
+</blockquote>
+<pre class="hljs"><code><div>     <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DoubleCheckLocking</span></span>{
+        		<span class="hljs-keyword">private</span> <span class="hljs-keyword">volatile</span> <span class="hljs-keyword">static</span> DoubleCheckLocking singleInstance;
+        		<span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DoubleCheckLocking <span class="hljs-title">getInstance</span><span class="hljs-params">()</span></span>{
+        			<span class="hljs-keyword">if</span>(<span class="hljs-keyword">null</span> == singleInstance){
+        				<span class="hljs-keyword">synchronized</span>(singleInstance){
+        					<span class="hljs-keyword">if</span>(<span class="hljs-keyword">null</span> == singleInstance){
+        						singleInstance = <span class="hljs-keyword">new</span> DoubleCheckLocking();<span class="hljs-comment">//不会重排序,分配内存 初始化对象 将对象指向分配的内存地址</span>
+        					}
+        				}
+        			}
+        			<span class="hljs-keyword">return</span> singleInstance;
+        		}
+        	}
+</div></code></pre>
+<blockquote>
+<p>通过JVM初始化阶段(在Class被加载后，且在线程使用之前)，会执行类的初始化，此时JVM会获取一把锁，会同步多个线程对类的初始化操作。</p>
+</blockquote>
+<pre class="hljs"><code><div>    <span class="hljs-keyword">public</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DoubleCheckLocking</span></span>{
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">DoubleCheckLockingHolder</span></span>{
+            <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> DoubleCheckLocking doubleCheckLocking = <span class="hljs-keyword">new</span> DoubleCheckLocking();
+        }
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> DoubleCheckLocking <span class="hljs-title">getInstance</span><span class="hljs-params">()</span></span>{
+            <span class="hljs-keyword">return</span> DoubleCheckLockingHolder.doubleCheckLocking;
+        }
+    }
+</div></code></pre>
+<p><img src="https://github.com/yinzhongzheng/study/blob/master/thread/md_img/class-init.png" alt="类的初始化"></p>
+
+</body>
+</html>
