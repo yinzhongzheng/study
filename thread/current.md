@@ -83,7 +83,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
     线程B-取消息->主内存
            |      x=1
            |更新
-           |
+           |1
          本地内存
            x=1
   ``` 
@@ -121,9 +121,10 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 ### as-if-serial
 无论编译器和处理器怎么重排序优化，必须要保证**单线程**情况下结果不能改变。\
 **其实java程序并不是顺序执行的。**\
-**在不改变程序执行结果的前提下，尽可能提高并行度**\
+**在不改变程序执行结果的前提下，尽可能提高并行度**
 
 ### 重排序对多线程的影响
+```java
     public class Test{
         int a;
         boolean flag = false;
@@ -149,6 +150,7 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
           Thread t1;//执行read()方法 操作1、2
         }
     }
+```
 >t2的执行顺序: 3,4 4,3
  t1的执行顺序  21 1 22 1 21 22 
  
@@ -195,18 +197,15 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 
 - final域不能从构造方法中溢出。
 ```java
-   class A{
+class A{
     final int a;
     public A(int a){
         this.a = a;
     }
-    
-    
    }
    //Thread 1 A a = new A(1);
    //Thread2 if(a!=null){a.a++}这里可能会出现问题
    //this.a = a;在构造方法中可能逃逸，在实例化对象之后才去执行该赋值语句
-  
 ```
 **多线程情况下，取到的a的值可能是初始值0，造成线程不安全**
 **final的重排序规则，禁止溢出构造方法之外**
@@ -242,18 +241,19 @@ monitorenter在编译时插入到synchronized的开始位置,monitorexit在编�
 >jdk 1.5以上版本，将singleInstance加上volatile关键字,可以静止重排序自身重排序，之前、之后的操作不能在volatile之后或之前执行
 ```java
      public class DoubleCheckLocking{
-        		private volatile static DoubleCheckLocking singleInstance;
-        		public static DoubleCheckLocking getInstance(){
+        private volatile static DoubleCheckLocking singleInstance;
+        public static DoubleCheckLocking getInstance(){
+        	if(null == singleInstance){
+        		synchronized(singleInstance){
         			if(null == singleInstance){
-        				synchronized(singleInstance){
-        					if(null == singleInstance){
-        						singleInstance = new DoubleCheckLocking();//不会重排序,分配内存 初始化对象 将对象指向分配的内存地址
-        					}
-        				}
+                        //不会重排序,分配内存 初始化对象 将对象指向分配的内存地址
+        				singleInstance = new DoubleCheckLocking();
         			}
-        			return singleInstance;
         		}
         	}
+        	return singleInstance;
+    	}
+ 	}
 ```
 >通过JVM初始化阶段(在Class被加载后，且在线程使用之前)，会执行类的初始化，此时JVM会获取一把锁，会同步多个线程对类的初始化操作。
 ```java
