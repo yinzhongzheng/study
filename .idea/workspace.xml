@@ -7,23 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3326d85-bb03-403c-8ac4-dec422591caa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.vscode/launch.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/current.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/current.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/current.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/CurrentHashMapTest.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/CurrentHashMapTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/FinalTest.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/FinalTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join$1.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe$TicketTask.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe$TicketTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe$TicketTask.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe$TicketTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe$ThreadUnSafe.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe$ThreadUnSafe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$1.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$Bean.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$Bean.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest.class" afterPath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/CurrentHashMapTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/FinalTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Join.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe$TicketTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/NoSafe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe$TicketTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/Safe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe$ThreadUnSafe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/VolatileUnSafe.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest$Bean.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/thread/target/classes/com/yzz/thread/test/volatileTest.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/design-method/target/" />
@@ -60,8 +56,8 @@
         <entry file="file://$PROJECT_DIR$/1-md/basic.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="42">
-                <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <first_editor relative-caret-position="315">
+                <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="6" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -74,7 +70,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="42">
-                <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+                <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -137,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/Safe.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-246">
-              <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+              <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -288,6 +284,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,7 +806,7 @@
       <workItem from="1544540913610" duration="2687000" />
       <workItem from="1544577568982" duration="2131000" />
       <workItem from="1544580478195" duration="8181000" />
-      <workItem from="1544600828156" duration="600000" />
+      <workItem from="1544600828156" duration="739000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544253969087</created>
@@ -931,11 +941,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544601334612</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="#">
+      <created>1544601461149</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544601461149</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66062000" />
+    <option name="totallyTimeSpent" value="66201000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1353,7 +1370,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="42">
-            <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1416,7 +1433,7 @@
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/Safe.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-246">
-          <caret line="53" column="17" lean-forward="true" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <caret line="53" column="17" lean-forward="false" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1424,8 +1441,8 @@
     <entry file="file://$PROJECT_DIR$/1-md/basic.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="42">
-            <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <first_editor relative-caret-position="315">
+            <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="6" />
             <folding />
           </first_editor>
           <second_editor />
