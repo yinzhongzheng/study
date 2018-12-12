@@ -23,7 +23,7 @@
   操作，反而没有执行。
 
 >例如:
-```java
+```
     Thread 1
     init(); 1
             tag = true; 2

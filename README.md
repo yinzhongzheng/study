@@ -1,4 +1,4 @@
 # 系统学习
-![ss](./thread/md_img/class-init.png)
-- [多线程基础](https://github.com/yinzhongzheng/study/blob/master/thread.md)
-- [并发编程](https://github.com/yinzhongzheng/study/blob/master/thread/current.md)
+- [java内存模型](./1-md/jmm.md)
+- [java线程](./1-md/thread.md)
+- [jvm理解](./1-md/jvm.md)
