@@ -15,6 +15,7 @@
         <module>design-method</module>
         <module>spring</module>
         <module>thread</module>
+        <module>java-base</module>
     </modules>
 
 

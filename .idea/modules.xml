@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/design-method/design-method.iml" filepath="$PROJECT_DIR$/design-method/design-method.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-base/java-base.iml" filepath="$PROJECT_DIR$/java-base/java-base.iml" />
       <module fileurl="file://$PROJECT_DIR$/license-client/license-client.iml" filepath="$PROJECT_DIR$/license-client/license-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/license-server/license-server.iml" filepath="$PROJECT_DIR$/license-server/license-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/proxy/proxy.iml" filepath="$PROJECT_DIR$/proxy/proxy.iml" />
