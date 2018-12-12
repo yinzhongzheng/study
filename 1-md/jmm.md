@@ -1,5 +1,5 @@
 # Java并发和多线程基础总结
-#多线程解读
+# 多线程解读
 > synchronized validate
   describe: 这里展示不安全的多线程操作
   多线程的三个原则
