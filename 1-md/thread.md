@@ -168,6 +168,7 @@
             target.waite();
            }
            //多个生产者和消费者的情况下，务必要再判断一下，否则会出现
+           //被wait的线程，唤醒后，会接着此处执行
            if(条件满足){
              //被通知了
              1.操作。。。，
@@ -179,4 +180,56 @@
 >感悟：当wait的线程重新唤醒，其实这个wait/notify的流程就完成了，该线程可以去竞争锁。
 ![wait和notify的运行过程](md_img/waitAndNotify.png)
 
-  
+### 管道流
+>字节: 有符号的，一个字节，-128~127 8位（bit）,机器只识别字节
+ 字符：字符是语义单位，是有编码的，一个字符可能被编码成1、2、3、4个字节
+ UTF-8:数字和英文(包括符号)占1个字节，中文占3个字节
+ 
+* PipedReader 字符读
+* PipedWriter 字符写
+* PipedInputStream 字节读
+* PipedOutputStream 字节写
+>注：输入中要connect输出流 writer.connect(reader);
+ 否则输入和输出都会抛出异常 IOException: Pipe not connected
+
+### join
+> 当前线程t执行了xxxThread.join()方法，那么标识，当前线程等待xxxThread终止之后才能从xxxThread.join()返回，阻塞操作。
+```java
+public class JoinTest {
+
+    static class T extends Thread{
+        Thread thread;
+
+        public T(Thread thread) {
+            this.thread = thread;
+        }
+
+        @Override
+        public void run() {
+            if (thread!=null){
+                try {
+                    thread.join();
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            System.out.println(Thread.currentThread().getName());
+        }
+    }
+
+    public static void main(String[] args) {
+        T t1 = new T(null);
+        T t2 = new T(t1);
+        T t3 = new T(t2);
+        t1.start();
+        t2.start();
+        t3.start();
+        try {
+            t3.join();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println("结束");
+    }
+}
+```
