@@ -1,4 +1,3 @@
-# 并发包下的锁
 [TOC]
 ## Lock
 ### 方法
@@ -73,4 +72,5 @@
 ### 与synchronized的区别
 ![](md_img\diff_lock_synchronized.png)
 
-### [TOC] AbstractQueuedSynchronizer(AQS)  
+
+
