@@ -4,6 +4,6 @@
 - [java并发-Thread](./1-md/thread.md)
 - [java并发-Lock](./1-md/locks.md)
 - [java并发-AQS](./1-md/aqs.md)
-- [java并发-重入锁(ReentrantLock)](./1-md/aqs.md)
+- [java并发-重入锁(ReentrantLock)](./1-md/重入锁.md)
 ### jvm
 - [jvm理解](./1-md/jvm.md)

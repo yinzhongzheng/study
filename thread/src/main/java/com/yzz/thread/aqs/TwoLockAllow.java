@@ -120,13 +120,16 @@ class test {
     public static final Lock lock = new TwoLockAllow();
 
     static class T extends Thread {
+        public T(String name){
+            super(name);
+        }
         @Override
         public void run() {
             lock.lock();
             System.out.println("==" + Thread.currentThread().getName());
             try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
+                //Thread.sleep(1000);
+            } catch (Exception e) {
                 e.printStackTrace();
             } finally {
                 lock.unlock();
@@ -135,9 +138,10 @@ class test {
     }
 
     public static void main(String[] args) {
-        for (int i = 0; i < 5; i++) {
-            T t = new T();
+        for (int i = 0; i < 10; i++) {
+            T t = new T(String.valueOf(i+"Thread"));
             t.start();
         }
+        System.out.println(null == null);
     }
 }
