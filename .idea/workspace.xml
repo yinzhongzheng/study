@@ -7,107 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3326d85-bb03-403c-8ac4-dec422591caa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/.settings/org.eclipse.jdt.apt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/license-client.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/bean/ClientValidConfigBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/manager/LicenseManagerHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/reader/AbstractPropertyReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/reader/PropertyClientReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/valid/ClientValidLicense.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/java/com/yzz/valid/publicCerts.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/main3.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/src/main/resources/client-valid.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/client-valid.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/bean/ClientValidConfigBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/manager/LicenseManagerHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/reader/AbstractPropertyReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/reader/PropertyClientReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/valid/ClientValidLicense.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-client/target/classes/com/yzz/valid/publicCerts.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/.settings/org.eclipse.jdt.apt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/keytools.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/license-server.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/license-service.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/bean/LicenseConfigBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/license/LicenseMaker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/license/privateKey.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/manager/LicenseManagerHolder.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/reader/AbstractPropertyReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/java/com/yzz/reader/PropertyServerReader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/main.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/src/main/resources/license-make-config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/bean/LicenseConfigBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/license/LicenseMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/license/privateKey.store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/manager/LicenseManagerHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/reader/AbstractPropertyReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/com/yzz/reader/PropertyServerReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/classes/license-make-config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/com/yzz/bean/LicenseConfigBean.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/com/yzz/license/LicenseMaker.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/com/yzz/manager/LicenseManagerHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/com/yzz/reader/AbstractPropertyReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/com/yzz/reader/PropertyServerReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/classes/license-make-config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/lib/commons-codec-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/lib/truelicense-core-1.33.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/license-server-1.0-SNAPSHOT/WEB-INF/lib/truelicense-xml-1.33.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/license-server/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/.settings/org.eclipse.jdt.apt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/proxy/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/aqs/TwoLockAllow.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-md/locks.md" afterPath="$PROJECT_DIR$/1-md/locks.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/.classpath" afterPath="$PROJECT_DIR$/thread/.classpath" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/thread/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java-base/.settings/org.eclipse.jdt.apt.core.prefs" afterPath="$PROJECT_DIR$/java-base/proxy/.settings/org.eclipse.jdt.apt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java-base/.settings/org.eclipse.jdt.core.prefs" afterPath="$PROJECT_DIR$/java-base/proxy/.settings/org.eclipse.jdt.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java-base/.settings/org.eclipse.m2e.core.prefs" afterPath="$PROJECT_DIR$/java-base/proxy/.settings/org.eclipse.m2e.core.prefs" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/license-client/.classpath" afterPath="$PROJECT_DIR$/java-base/proxy/.classpath" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/license-client/pom.xml" afterPath="$PROJECT_DIR$/jvm/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/license-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/1-md/aqs.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/.project" afterPath="$PROJECT_DIR$/java-base/proxy/.project" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/pom.xml" afterPath="$PROJECT_DIR$/java-base/proxy/pom.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/proxy.iml" afterPath="$PROJECT_DIR$/java-base/proxy/proxy.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/CompileJavaCode.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/CompileJavaCode.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/ILog.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/ILog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/MyClassLoader.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/MyClassLoader.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/Proxy.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/Proxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/ProxyGenerator.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/ProxyGenerator.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/custom/Test.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/custom/Test.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/jdk/ILog.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/jdk/ILog.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/jdk/ProxyHandler.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/jdk/ProxyHandler.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/java/com/yzz/study/proxy/jdk/run.java" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/jdk/run.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/src/main/main1.iml" afterPath="$PROJECT_DIR$/java-base/proxy/src/main/main1.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/CompileJavaCode.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/CompileJavaCode.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/ILog.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/ILog.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/MyClassLoader.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/MyClassLoader.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/Proxy.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/Proxy.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/ProxyGenerator.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/ProxyGenerator.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/Test$1.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/Test$1.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/custom/Test.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/custom/Test.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/jdk/ILog.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/jdk/ILog.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/jdk/ProxyHandler.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/jdk/ProxyHandler.class" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/proxy/target/classes/com/yzz/study/proxy/jdk/run.class" afterPath="$PROJECT_DIR$/java-base/proxy/target/classes/com/yzz/study/proxy/jdk/run.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-md/aqs.md" afterPath="$PROJECT_DIR$/1-md/aqs.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/design-method/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
@@ -142,48 +48,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="locks.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-md/locks.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1575">
-                <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
+      <file leaf-file-name="TwoLockAllow.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/aqs/TwoLockAllow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aqs.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1-md/aqs.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-                <folding />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="483">
+              <caret line="142" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2470#2471#0" expanded="true" />
+                <element signature="e#2507#2508#0" expanded="true" />
+                <element signature="e#2641#2642#0" expanded="true" />
+                <element signature="e#2669#2670#0" expanded="true" />
+                <element signature="e#2837#2838#0" expanded="true" />
+                <element signature="e#2874#2875#0" expanded="true" />
+                <element signature="e#2927#2928#0" expanded="true" />
+                <element signature="e#2954#2955#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -191,19 +71,83 @@
       <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24003">
-              <caret line="1198" column="15" lean-forward="false" selection-start-line="1198" selection-start-column="15" selection-end-line="1198" selection-end-column="15" />
+            <state relative-caret-position="359">
+              <caret line="794" column="27" lean-forward="false" selection-start-line="794" selection-start-column="27" selection-end-line="794" selection-end-column="27" />
+              <folding>
+                <element signature="e#41392#41393#0" expanded="true" />
+                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="e#42562#42563#0" expanded="true" />
+                <element signature="e#42619#42620#0" expanded="true" />
+                <element signature="e#44444#44445#0" expanded="true" />
+                <element signature="e#44501#44502#0" expanded="true" />
+                <element signature="e#45599#45600#0" expanded="true" />
+                <element signature="e#45656#45657#0" expanded="true" />
+                <element signature="e#53988#53989#0" expanded="true" />
+                <element signature="e#54023#54024#0" expanded="true" />
+                <element signature="e#54379#54380#0" expanded="true" />
+                <element signature="e#54414#54415#0" expanded="true" />
+                <element signature="e#67632#67633#0" expanded="true" />
+                <element signature="e#67680#67681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aqs.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1-md/aqs.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-1659">
+                <caret line="14" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+                <folding>
+                  <marker date="1544883482755" expanded="true" signature="606:689" ph="/**...*/" />
+                  <marker date="1544883482755" expanded="true" signature="732:3349" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="790:847" ph="/**...*/" />
+                  <marker date="1544883482755" expanded="true" signature="913:2822" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="940:1098" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="1108:2040" ph="/**...*/" />
+                  <marker date="1544883482755" expanded="true" signature="2107:2388" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="2398:2484" ph="/**...*/" />
+                  <marker date="1544883482755" expanded="true" signature="2555:2816" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="2860:2871" ph=" { " />
+                  <marker date="1544883482755" expanded="true" signature="2893:2899" ph=" }" />
+                  <marker date="1544883482755" expanded="true" signature="2979:2987" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="3031:3042" ph=" { " />
+                  <marker date="1544883482755" expanded="true" signature="3055:3061" ph=" }" />
+                  <marker date="1544883482755" expanded="true" signature="3158:3187" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="3227:3238" ph=" { " />
+                  <marker date="1544883482755" expanded="true" signature="3260:3266" ph=" }" />
+                  <marker date="1544883482755" expanded="true" signature="3317:3328" ph=" { " />
+                  <marker date="1544883482755" expanded="true" signature="3340:3346" ph=" }" />
+                  <marker date="1544883482755" expanded="true" signature="3362:3975" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="3455:3823" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="3501:3817" ph="{...}" />
+                  <marker date="1544883482755" expanded="true" signature="3868:3973" ph="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Unsafe.class" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="305" column="32" lean-forward="false" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbstractOwnableSynchronizer.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractOwnableSynchronizer.java">
+      <file leaf-file-name="TestAbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="63">
+              <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -228,6 +172,9 @@
       <find>threadLocals</find>
       <find>start</find>
       <find>&lt;/b&gt;</find>
+      <find>EXCLUSIVE</find>
+      <find>isHeldExclusively</find>
+      <find>protected</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -261,15 +208,16 @@
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/volatileTest.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/TestDaemon.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ProducerAndConsumer.java" />
-        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/Pip.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/JoinTest.java" />
         <option value="$PROJECT_DIR$/1-md/thread.md" />
-        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java" />
-        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java" />
-        <option value="$PROJECT_DIR$/1-md/aqs.md" />
         <option value="$PROJECT_DIR$/1-md/locks.md" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java" />
+        <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/aqs/TwoLockAllow.java" />
+        <option value="$PROJECT_DIR$/1-md/aqs.md" />
       </list>
     </option>
   </component>
@@ -359,6 +307,154 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test_lock" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yzz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thread" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="study" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1-md" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -397,47 +493,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JoinTest">
-    <configuration default="false" name="TestDaemon" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yzz.thread.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yzz.thread.test.TestDaemon" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thread" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="ProducerAndConsumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.yzz.thread.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.yzz.thread.test.ProducerAndConsumer" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="thread" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.test">
     <configuration default="false" name="ByteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -486,6 +542,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.yzz.thread.test.JoinTest" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestAbstractQueuedSynchronizer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yzz.thread.test_lock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yzz.thread.test_lock.TestAbstractQueuedSynchronizer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="thread" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.yzz.thread.aqs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.yzz.thread.aqs.test" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -828,19 +924,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestDaemon" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ProducerAndConsumer" />
-      <item index="2" class="java.lang.String" itemvalue="Application.ByteTest" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Pip" />
-      <item index="4" class="java.lang.String" itemvalue="Application.JoinTest" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ByteTest" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Pip" />
+      <item index="2" class="java.lang.String" itemvalue="Application.JoinTest" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestAbstractQueuedSynchronizer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.JoinTest" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Pip" />
+        <item index="0" class="java.lang.String" itemvalue="Application.test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TestAbstractQueuedSynchronizer" />
         <item index="2" class="java.lang.String" itemvalue="Application.ByteTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ProducerAndConsumer" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestDaemon" />
+        <item index="3" class="java.lang.String" itemvalue="Application.JoinTest" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Pip" />
       </list>
     </recent_temporary>
   </component>
@@ -879,7 +975,7 @@
       <workItem from="1544756656593" duration="5109000" />
       <workItem from="1544801301236" duration="129000" />
       <workItem from="1544856144862" duration="977000" />
-      <workItem from="1544857287442" duration="1511000" />
+      <workItem from="1544857287442" duration="17620000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544253969087</created>
@@ -1063,11 +1159,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544757419293</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="整理项目">
+      <created>1544861184824</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1544861184824</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101943000" />
+    <option name="totallyTimeSpent" value="118052000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1084,26 +1187,27 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4139073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32279533" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33943427" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4139073" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33611533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33611533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26251897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26251897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4292845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60264903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22754946" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41430947" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1154,11 +1258,26 @@
     <MESSAGE value="#" />
     <MESSAGE value="线程理解" />
     <MESSAGE value="lock" />
-    <option name="LAST_COMMIT_MESSAGE" value="lock" />
+    <MESSAGE value="整理项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="整理项目" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>948</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</url>
+          <line>968</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1167,27 +1286,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java-base/proxy/src/main/java/com/yzz/study/proxy/jdk/ProxyHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="19" column="24" lean-forward="false" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java-base/target/classes/com/yzz/java/base/TestT.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8568">
@@ -1280,13 +1378,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6510">
-          <caret line="351" column="3" lean-forward="false" selection-start-line="351" selection-start-column="3" selection-end-line="425" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/TestDaemon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1305,13 +1396,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="58" column="24" lean-forward="false" selection-start-line="58" selection-start-column="24" selection-end-line="62" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1340,13 +1424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="651">
           <caret line="64" column="10" lean-forward="false" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1387,24 +1464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-754">
-          <caret line="70" column="12" lean-forward="false" selection-start-line="70" selection-start-column="12" selection-end-line="70" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
           <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="111" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/Lock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6027">
-          <caret line="320" column="53" lean-forward="false" selection-start-line="320" selection-start-column="53" selection-end-line="320" selection-end-column="64" />
         </state>
       </provider>
     </entry>
@@ -1435,14 +1498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="58" lean-forward="false" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1378">
@@ -1455,25 +1510,6 @@
         <state relative-caret-position="336">
           <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24003">
-          <caret line="1198" column="15" lean-forward="false" selection-start-line="1198" selection-start-column="15" selection-end-line="1198" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1-md/aqs.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1545,11 +1581,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/FutureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/ByteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="233" column="27" lean-forward="false" selection-start-line="233" selection-start-column="27" selection-end-line="233" selection-end-column="27" />
+          <folding>
+            <element signature="e#8926#8927#0" expanded="true" />
+            <element signature="e#8973#8974#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1032">
+          <caret line="920" column="31" lean-forward="true" selection-start-line="920" selection-start-column="31" selection-end-line="920" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/LockSupport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="171" column="23" lean-forward="false" selection-start-line="171" selection-start-column="23" selection-end-line="171" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="315">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/Lock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="183" column="9" lean-forward="false" selection-start-line="183" selection-start-column="9" selection-end-line="183" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test_lock/TestAbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="305" column="32" lean-forward="false" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="794" column="27" lean-forward="false" selection-start-line="794" selection-start-column="27" selection-end-line="794" selection-end-column="27" />
+          <folding>
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#42562#42563#0" expanded="true" />
+            <element signature="e#42619#42620#0" expanded="true" />
+            <element signature="e#44444#44445#0" expanded="true" />
+            <element signature="e#44501#44502#0" expanded="true" />
+            <element signature="e#45599#45600#0" expanded="true" />
+            <element signature="e#45656#45657#0" expanded="true" />
+            <element signature="e#53988#53989#0" expanded="true" />
+            <element signature="e#54023#54024#0" expanded="true" />
+            <element signature="e#54379#54380#0" expanded="true" />
+            <element signature="e#54414#54415#0" expanded="true" />
+            <element signature="e#67632#67633#0" expanded="true" />
+            <element signature="e#67680#67681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/aqs/TwoLockAllow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="142" column="1" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="142" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2470#2471#0" expanded="true" />
+            <element signature="e#2507#2508#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
+            <element signature="e#2669#2670#0" expanded="true" />
+            <element signature="e#2837#2838#0" expanded="true" />
+            <element signature="e#2874#2875#0" expanded="true" />
+            <element signature="e#2927#2928#0" expanded="true" />
+            <element signature="e#2954#2955#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1-md/aqs.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1659">
+            <caret line="14" column="24" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
+            <folding>
+              <marker date="1544883482755" expanded="true" signature="606:689" ph="/**...*/" />
+              <marker date="1544883482755" expanded="true" signature="732:3349" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="790:847" ph="/**...*/" />
+              <marker date="1544883482755" expanded="true" signature="913:2822" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="940:1098" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="1108:2040" ph="/**...*/" />
+              <marker date="1544883482755" expanded="true" signature="2107:2388" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="2398:2484" ph="/**...*/" />
+              <marker date="1544883482755" expanded="true" signature="2555:2816" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="2860:2871" ph=" { " />
+              <marker date="1544883482755" expanded="true" signature="2893:2899" ph=" }" />
+              <marker date="1544883482755" expanded="true" signature="2979:2987" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="3031:3042" ph=" { " />
+              <marker date="1544883482755" expanded="true" signature="3055:3061" ph=" }" />
+              <marker date="1544883482755" expanded="true" signature="3158:3187" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="3227:3238" ph=" { " />
+              <marker date="1544883482755" expanded="true" signature="3260:3266" ph=" }" />
+              <marker date="1544883482755" expanded="true" signature="3317:3328" ph=" { " />
+              <marker date="1544883482755" expanded="true" signature="3340:3346" ph=" }" />
+              <marker date="1544883482755" expanded="true" signature="3362:3975" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="3455:3823" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="3501:3817" ph="{...}" />
+              <marker date="1544883482755" expanded="true" signature="3868:3973" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

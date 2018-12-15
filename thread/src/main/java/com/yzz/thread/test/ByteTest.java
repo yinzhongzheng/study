@@ -9,6 +9,7 @@ package com.yzz.thread.test;
 public class ByteTest {
     public static void main(String[] args) {
         String str = "?";
+        char a = '无';
         byte[] b = str.getBytes();
         System.out.println(b.length);
     }

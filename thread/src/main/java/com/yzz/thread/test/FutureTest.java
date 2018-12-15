@@ -12,6 +12,5 @@ public class FutureTest {
     public static void main(String[] args) {
         Thread thread = new Thread();
 
-        Callable
     }
 }
