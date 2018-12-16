@@ -64,6 +64,7 @@ public class ConditionWaitAndNotify {
             e.printStackTrace();
         } finally {
             lock.unlock();
+            System.out.println("remove释放锁");
         }
     }
 

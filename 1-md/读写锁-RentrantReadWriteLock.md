@@ -108,6 +108,28 @@ public class ReentrantReadWriteLockTest {
 ##### 注意
 * 这里要注意唤醒后的执行顺序，是逻辑顺序往下执行，所以必须要double check，此处唤醒是唤醒了所有等待的线程，有可能出现生产者唤醒生产者的情况
 
+* 疑问
+  add()方法已经lock到锁了，为什么await后，remove可以获取锁，在add没有unlock之前是无法获取锁的？？？
+  
+ > 原因：
+ 
+ 
+ > await()-->fullyRelease()-->release()-->tryRelease
+ >release方法如下
+ ```
+ public final boolean release(long arg) {
+        if (tryRelease(arg)) {
+            Node h = head;
+            if (h != null && h.waitStatus != 0)
+                unparkSuccessor(h);
+            return true;
+        }
+        return false;
+    }
+```
+>在single的时候，或有enqueue操作，我们的lock方法在无法获取锁的情况下就会enqueue操作，进入同步队列
+>so it's ok...
+
 ```java
 /**
  * describe:

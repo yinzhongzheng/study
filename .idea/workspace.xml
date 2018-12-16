@@ -7,15 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e3326d85-bb03-403c-8ac4-dec422591caa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-md/md_img/condition.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-md/md_img/node等待队列被唤醒.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-md/md_img/从同步队列加入等待队列.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-md/md_img/等待队列.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ReentrantReadWriteLockTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md" afterPath="$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java" afterPath="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java" />
     </list>
     <ignored path="$PROJECT_DIR$/design-method/target/" />
     <ignored path="$PROJECT_DIR$/spring/target/" />
@@ -50,28 +44,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="读写锁-RentrantReadWriteLock.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="读写锁-RentrantReadWriteLock.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="1848">
-                <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="25" />
+              <first_editor relative-caret-position="151">
+                <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="130" selection-end-column="14" />
                 <folding>
-                  <marker date="1544968789394" expanded="true" signature="142:225" ph="/**...*/" />
-                  <marker date="1544968789394" expanded="true" signature="519:712" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="565:706" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="748:943" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="794:937" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="988:1231" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="2547:2630" ph="/**...*/" />
-                  <marker date="1544968789394" expanded="true" signature="2875:3000" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="3024:3547" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="3574:4061" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="4137:4439" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="4171:4431" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="4517:4823" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="4551:4815" ph="{...}" />
-                  <marker date="1544968789394" expanded="true" signature="4869:5273" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="142:225" ph="/**...*/" />
+                  <marker date="1544970588211" expanded="true" signature="519:712" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="565:706" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="748:943" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="794:937" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="988:1231" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="3033:3116" ph="/**...*/" />
+                  <marker date="1544970588211" expanded="true" signature="3361:3486" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="3510:4033" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="4060:4547" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="4623:4925" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="4657:4917" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="5003:5309" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="5037:5301" ph="{...}" />
+                  <marker date="1544970588211" expanded="true" signature="5355:5759" ph="{...}" />
                 </folding>
               </first_editor>
               <second_editor />
@@ -79,12 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="210">
-                <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+                <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -95,8 +89,8 @@
       <file leaf-file-name="ConditionWaitAndNotify.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1225">
-              <caret line="104" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+            <state relative-caret-position="168">
+              <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,10 +98,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AbstractQueuedLongSynchronizer.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="413">
+              <caret line="393" column="17" lean-forward="false" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="ReentrantReadWriteLockTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ReentrantReadWriteLockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
+            <state relative-caret-position="-35">
               <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,10 +123,11 @@
       <file leaf-file-name="ReentrantLock.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="115" column="51" lean-forward="false" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+            <state relative-caret-position="350">
+              <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="27" />
               <folding>
-                <element signature="class#Sync#0;class#ReentrantLock#0" expanded="false" />
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6907#6908#0" expanded="true" />
                 <element signature="e#8176#8177#0" expanded="true" />
                 <element signature="e#8216#8217#0" expanded="true" />
               </folding>
@@ -133,9 +138,14 @@
       <file leaf-file-name="AbstractQueuedSynchronizer.java" pinned="false" current-in-tab="false">
         <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="2031" column="26" lean-forward="false" selection-start-line="2031" selection-start-column="26" selection-end-line="2031" selection-end-column="26" />
-              <folding />
+            <state relative-caret-position="182">
+              <caret line="1100" column="22" lean-forward="false" selection-start-line="1100" selection-start-column="22" selection-end-line="1100" selection-end-column="22" />
+              <folding>
+                <element signature="e#41392#41393#0" expanded="true" />
+                <element signature="e#41449#41450#0" expanded="true" />
+                <element signature="e#42562#42563#0" expanded="true" />
+                <element signature="e#42619#42620#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -241,9 +251,9 @@
         <option value="$PROJECT_DIR$/1-md/读写锁.md" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/RentrantReadWriteLockTest.java" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ReentrantReadWriteLockTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java" />
         <option value="$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -1003,7 +1013,7 @@
       <workItem from="1544801301236" duration="129000" />
       <workItem from="1544856144862" duration="977000" />
       <workItem from="1544857287442" duration="24870000" />
-      <workItem from="1544938548883" duration="22353000" />
+      <workItem from="1544938548883" duration="23925000" />
     </task>
     <task id="LOCAL-00001" summary="2">
       <created>1544253969087</created>
@@ -1229,11 +1239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544946453724</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="整理项目">
+      <created>1544969139477</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1544969139477</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147655000" />
+    <option name="totallyTimeSpent" value="149227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1259,9 +1276,9 @@
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34901366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34901366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26251897" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30349013" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952815" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1349,13 +1366,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="162" column="49" lean-forward="false" selection-start-line="162" selection-start-column="41" selection-end-line="162" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/test/volatileTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
@@ -1770,14 +1780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/Condition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="230" column="9" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReentrantReadWriteLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1797,9 +1799,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="210">
+            <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ReentrantReadWriteLockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
+        <state relative-caret-position="-35">
           <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1809,10 +1822,11 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="115" column="51" lean-forward="false" selection-start-line="115" selection-start-column="51" selection-end-line="115" selection-end-column="51" />
+        <state relative-caret-position="350">
+          <caret line="142" column="27" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="27" />
           <folding>
-            <element signature="class#Sync#0;class#ReentrantLock#0" expanded="false" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6907#6908#0" expanded="true" />
             <element signature="e#8176#8177#0" expanded="true" />
             <element signature="e#8216#8217#0" expanded="true" />
           </folding>
@@ -1821,55 +1835,65 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="2031" column="26" lean-forward="false" selection-start-line="2031" selection-start-column="26" selection-end-line="2031" selection-end-column="26" />
+        <state relative-caret-position="182">
+          <caret line="1100" column="22" lean-forward="false" selection-start-line="1100" selection-start-column="22" selection-end-line="1100" selection-end-column="22" />
+          <folding>
+            <element signature="e#41392#41393#0" expanded="true" />
+            <element signature="e#41449#41450#0" expanded="true" />
+            <element signature="e#42562#42563#0" expanded="true" />
+            <element signature="e#42619#42620#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="230" column="9" lean-forward="false" selection-start-line="230" selection-start-column="9" selection-end-line="230" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread/src/main/java/com/yzz/thread/readWrite/ConditionWaitAndNotify.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1225">
-          <caret line="104" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="168">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1848">
-            <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="25" />
-            <folding>
-              <marker date="1544968789394" expanded="true" signature="142:225" ph="/**...*/" />
-              <marker date="1544968789394" expanded="true" signature="519:712" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="565:706" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="748:943" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="794:937" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="988:1231" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="2547:2630" ph="/**...*/" />
-              <marker date="1544968789394" expanded="true" signature="2875:3000" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="3024:3547" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="3574:4061" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="4137:4439" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="4171:4431" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="4517:4823" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="4551:4815" ph="{...}" />
-              <marker date="1544968789394" expanded="true" signature="4869:5273" ph="{...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_141/src.zip!/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="393" column="17" lean-forward="false" selection-start-line="393" selection-start-column="8" selection-end-line="393" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/1-md/读写锁-RentrantReadWriteLock.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-            <folding />
+          <first_editor relative-caret-position="151">
+            <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="130" selection-end-column="14" />
+            <folding>
+              <marker date="1544970588211" expanded="true" signature="142:225" ph="/**...*/" />
+              <marker date="1544970588211" expanded="true" signature="519:712" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="565:706" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="748:943" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="794:937" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="988:1231" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="3033:3116" ph="/**...*/" />
+              <marker date="1544970588211" expanded="true" signature="3361:3486" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="3510:4033" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="4060:4547" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="4623:4925" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="4657:4917" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="5003:5309" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="5037:5301" ph="{...}" />
+              <marker date="1544970588211" expanded="true" signature="5355:5759" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
