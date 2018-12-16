@@ -86,19 +86,19 @@ public class ReentrantReadWriteLockTest {
 >相当于wait和notify
 
 ### Condition
-![](md_img\condition.png)
+![](md_img/condition.png)
 > Condition 操作的前提是，当前线程是同步队列中的head，获取到了锁，才能进行等待/唤醒操作
 * Condition 维护了一个Node等待队列
 
-![](md_img\t-22.png)
+![](md_img/t-22.png)
 
 * await操作
 > 会将该线程从Syn队列中移动到Condition等待队列的队尾
-![](md_img\t-21.png)
+![](md_img/t-21.png)
 
 * single操作
 > 会将该线程从Condition中移动到Syn的同步队列的队尾
-![](md_img\nodeWaitBeAwaked.png)
+![](md_img/nodeWaitBeAwaked.png)
 
 #### Condition示例
 > 此例中实现了伪消费者，是排他锁的实现
