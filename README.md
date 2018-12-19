@@ -9,5 +9,6 @@
 - [java并发-java并发-读写锁&Park&Condition接口](1-md/RentrantReadWriteLock.md)
 - [java并发-java并发-信号量](1-md/信号量.md)
 - [java并发-java并发-模拟抢购](1-md/模拟抢购.md)
+- [java并发-java并发-生产者与消费者大揭秘](1-md/生产者消费者.md)
 ### jvm
 - [jvm理解](./1-md/jvm.md)
