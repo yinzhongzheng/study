@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.Semaphore</OriginalElement>
+  <nodes>
+    <node x="150.0" y="296.0">java.util.concurrent.Semaphore.FairSync</node>
+    <node x="33.041666666666686" y="82.0">java.util.concurrent.Semaphore</node>
+    <node x="0.0" y="296.0">java.util.concurrent.Semaphore.NonfairSync</node>
+    <node x="101.19791666666669" y="214.0">java.util.concurrent.Semaphore.Sync</node>
+    <node x="78.79166666666669" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore">
+      <point x="25.75" y="-16.0" />
+      <point x="227.25" y="271.0" />
+      <point x="206.54687500000003" y="271.0" />
+      <point x="206.54687500000003" y="184.0" />
+      <point x="161.37500000000006" y="184.0" />
+      <point x="51.33333333333337" y="41.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore.Sync">
+      <point x="32.5" y="-16.0" />
+      <point x="97.5" y="271.0" />
+      <point x="120.94791666666669" y="271.0" />
+      <point x="-19.75" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.util.concurrent.Semaphore">
+      <point x="-19.75" y="-16.0" />
+      <point x="120.94791666666669" y="194.0" />
+      <point x="110.04166666666669" y="194.0" />
+      <point x="0.0" y="41.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore" target="java.io.Serializable">
+      <point x="0.0" y="-41.0" />
+      <point x="-31.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.Sync" target="java.io.Serializable">
+      <point x="19.75" y="-16.0" />
+      <point x="160.44791666666669" y="194.0" />
+      <point x="199.75" y="194.0" />
+      <point x="199.75" y="57.0" />
+      <point x="172.54166666666669" y="57.0" />
+      <point x="31.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.FairSync" target="java.util.concurrent.Semaphore.Sync">
+      <point x="-25.75" y="-16.0" />
+      <point x="175.75" y="271.0" />
+      <point x="160.44791666666669" y="271.0" />
+      <point x="19.75" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.Semaphore.NonfairSync" target="java.util.concurrent.Semaphore">
+      <point x="-32.5" y="-16.0" />
+      <point x="32.5" y="271.0" />
+      <point x="39.79687500000003" y="271.0" />
+      <point x="39.79687500000003" y="194.0" />
+      <point x="58.70833333333334" y="194.0" />
+      <point x="-51.33333333333334" y="41.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="116.24999999999994" y="166.74999999999997" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
