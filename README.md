@@ -8,6 +8,6 @@
 - [java并发-读写锁自定义](./1-md/读写锁-自定义.md)
 - [java并发-java并发-读写锁&Park&Condition接口](1-md/RentrantReadWriteLock.md)
 - [java并发-java并发-信号量](1-md/信号量.md)
-- [java并发-java并发-信号量](1-md/模拟抢购.md)
+- [java并发-java并发-模拟抢购](1-md/模拟抢购.md)
 ### jvm
 - [jvm理解](./1-md/jvm.md)
