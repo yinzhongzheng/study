@@ -1,9 +1,6 @@
 package com.yzz.hystrix;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.Future;
+import java.util.concurrent.*;
 
 /**
  * describe:
@@ -14,8 +11,17 @@ import java.util.concurrent.Future;
 public class Test {
 
     public static void main(String[] args) {
-        ExecutorService executorService = Executors.newWorkStealingPool(1);
+        ExecutorService executorService = Executors.newSingleThreadExecutor();
+        Future future = executorService.submit(new Callable<String>() {
+            public String call() throws Exception {
+                
+                return null;
+            }
+        });
+    }
 
+
+    public void testRetry(){
         int i = 0;
         int j = 0;
         for (; ; ) {

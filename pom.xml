@@ -15,6 +15,7 @@
         <module>java-base</module>
         <module>jvm</module>
         <module>hystrix</module>
+        <module>fbs</module>
     </modules>
 
 

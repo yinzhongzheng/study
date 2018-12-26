@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="design-method" />
+        <module name="fbs" />
         <module name="hystrix" />
         <module name="java-base" />
         <module name="jvm" />
@@ -16,6 +17,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="design-method" target="1.5" />
+      <module name="fbs" target="1.5" />
       <module name="hystrix" target="1.5" />
       <module name="java-base" target="1.5" />
       <module name="jvm" target="1.5" />
