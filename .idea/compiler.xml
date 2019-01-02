@@ -13,20 +13,19 @@
         <module name="jvm" />
         <module name="spring" />
         <module name="thread" />
+        <module name="zookeeper" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="design-method" target="1.5" />
-      <module name="fbs" target="1.5" />
-      <module name="hystrix" target="1.5" />
-      <module name="java-base" target="1.5" />
-      <module name="jvm" target="1.5" />
-      <module name="license-client" target="1.5" />
-      <module name="license-server" target="1.5" />
-      <module name="proxy" target="1.5" />
-      <module name="spring" target="1.5" />
-      <module name="study" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="design-method" target="1.8" />
+      <module name="fbs" target="1.8" />
+      <module name="hystrix" target="1.8" />
+      <module name="java-base" target="1.8" />
+      <module name="jvm" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="study" target="1.8" />
       <module name="thread" target="1.8" />
+      <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

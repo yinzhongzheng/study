@@ -16,6 +16,7 @@
         <module>jvm</module>
         <module>hystrix</module>
         <module>fbs</module>
+        <module>zookeeper</module>
     </modules>
 
 
