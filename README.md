@@ -16,5 +16,5 @@
 ### 分布式
 #### 概念理解
 - [传统刚性事务的理解](./2-md/刚性事务.md)
-- [传统刚性事务的理解](./2-md/zookeeper-原生bug.md)
-- [传统刚性事务的理解](./2-md/zookeeper-api.md)
+- [zookeeper-原生bug](./2-md/zookeeper-原生bug.md)
+- [zookeeper-api](./2-md/zookeeper-api.md)

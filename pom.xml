@@ -17,6 +17,7 @@
         <module>hystrix</module>
         <module>fbs</module>
         <module>zookeeper</module>
+        <module>spi</module>
     </modules>
 
 
