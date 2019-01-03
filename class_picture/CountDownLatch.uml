@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.CountDownLatch.Sync</OriginalElement>
+  <nodes>
+    <node x="70.75" y="164.0">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+    <node x="153.25" y="246.0">java.util.concurrent.CountDownLatch.Sync</node>
+    <node x="0.0" y="82.0">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+    <node x="130.25" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.CountDownLatch.Sync" target="java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.io.Serializable">
+      <point x="61.0" y="-16.0" />
+      <point x="253.75" y="139.0" />
+      <point x="260.5" y="139.0" />
+      <point x="260.5" y="57.0" />
+      <point x="224.0" y="57.0" />
+      <point x="31.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.AbstractOwnableSynchronizer" target="java.io.Serializable">
+      <point x="0.0" y="-16.0" />
+      <point x="125.0" y="57.0" />
+      <point x="161.5" y="57.0" />
+      <point x="-31.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.locks.AbstractQueuedSynchronizer" target="java.util.concurrent.locks.AbstractOwnableSynchronizer">
+      <point x="-61.0" y="-16.0" />
+      <point x="131.75" y="139.0" />
+      <point x="125.0" y="139.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="158.0" y="139.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

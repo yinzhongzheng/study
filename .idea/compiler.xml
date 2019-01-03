@@ -18,16 +18,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="design-method" target="1.5" />
-      <module name="fbs" target="1.5" />
-      <module name="hystrix" target="1.5" />
-      <module name="java-base" target="1.5" />
-      <module name="jvm" target="1.5" />
-      <module name="spi" target="1.5" />
-      <module name="spring" target="1.5" />
-      <module name="study" target="1.5" />
+      <module name="design-method" target="1.8" />
+      <module name="fbs" target="1.8" />
+      <module name="hystrix" target="1.8" />
+      <module name="java-base" target="1.8" />
+      <module name="jvm" target="1.8" />
+      <module name="spi" target="1.8" />
+      <module name="spring" target="1.8" />
+      <module name="study" target="1.8" />
       <module name="thread" target="1.8" />
-      <module name="zookeeper" target="1.5" />
+      <module name="zookeeper" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

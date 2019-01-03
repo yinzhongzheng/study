@@ -23,7 +23,7 @@
    >同上，加上了一个等待时间。
 5. Condition newCondition()
    > 与该锁绑定的一个多线程通信的一个类
-   ![](md_img\lock-method.png)
+   ![](md_img/lock-method.png)
    
    ```
       //官方的实例
