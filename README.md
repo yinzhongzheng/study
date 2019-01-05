@@ -19,3 +19,4 @@
 - [传统刚性事务的理解](./2-md/刚性事务.md)
 - [zookeeper-原生bug](./2-md/zookeeper-原生bug.md)
 - [zookeeper-api](./2-md/zookeeper-api.md)
+- [dubbo源码-1-bean的创建和服务暴露](./3-dubbo/dubbo源码-1-bean的创建和注册.md)
