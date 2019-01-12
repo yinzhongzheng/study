@@ -21,11 +21,10 @@ public class SynConsumer<T extends Deque> implements IConsumer<T> {
                 //消费
                 Object produce = t.pollFirst();
                 System.out.println("消费：" + produce + " 当前数量" + t.size());
-                t.notifyAll();
+
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            }catch (Exception e){
-                e.printStackTrace();
+            } finally {
                 t.notifyAll();
             }
         }

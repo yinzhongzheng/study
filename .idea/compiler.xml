@@ -11,6 +11,7 @@
         <module name="hystrix" />
         <module name="java-base" />
         <module name="jvm" />
+        <module name="nio" />
         <module name="spi" />
         <module name="spring" />
         <module name="thread" />
@@ -18,16 +19,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="design-method" target="1.8" />
-      <module name="fbs" target="1.8" />
-      <module name="hystrix" target="1.8" />
-      <module name="java-base" target="1.8" />
-      <module name="jvm" target="1.8" />
-      <module name="spi" target="1.8" />
-      <module name="spring" target="1.8" />
-      <module name="study" target="1.8" />
+      <module name="design-method" target="1.5" />
+      <module name="fbs" target="1.5" />
+      <module name="hystrix" target="1.5" />
+      <module name="java-base" target="1.5" />
+      <module name="jvm" target="1.5" />
+      <module name="nio" target="1.8" />
+      <module name="spi" target="1.5" />
+      <module name="spring" target="1.5" />
+      <module name="study" target="1.5" />
       <module name="thread" target="1.8" />
-      <module name="zookeeper" target="1.8" />
+      <module name="zookeeper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

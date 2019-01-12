@@ -25,7 +25,7 @@ public class SyncProducer<T extends Deque> implements IProducer<T> {
                 t.notifyAll();
             } catch (InterruptedException e) {
                 e.printStackTrace();
-            } catch (Exception e) {
+            } finally {
                 t.notifyAll();
             }
         }

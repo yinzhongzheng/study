@@ -24,12 +24,12 @@ public class Singleton4 {
 		return LazyHolder.INSTANCE;
     }
 	
-//	static int a = 1;
+//	static int studyio = 1;
 //	//���ܸ�class��û��ʵ������static��̬���ܻ���classLoaderִ�����Ժ󣬾ͼ������
 //	static{
 //		//��̬���е����ݣ�ֻ�ܷ��ʾ�̬���Ժ;�̬����
 //		//ֻҪ�Ǿ�̬�����������ԣ�ֱ�ӿ�����Class�����־��ܵ����
-//		Singleton4.a = 2;
+//		Singleton4.studyio = 2;
 //		//JVM �ڴ��еľ�̬������һ��������ǹ����� 
 //	}
 }

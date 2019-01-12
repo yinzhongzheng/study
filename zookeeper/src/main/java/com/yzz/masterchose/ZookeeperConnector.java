@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.util.concurrent.*;
 
 /**
- * ctrl + alt + a 清除import
+ * ctrl + alt + studyio 清除import
  * describe:
  * E-mail:yzzstyle@163.com  date:2018/12/26
  *

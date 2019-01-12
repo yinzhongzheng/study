@@ -11,7 +11,7 @@
            例如：
            findA()   1
            findB()   2
-           a = 1;    3 //validate修饰的
+           studyio = 1;    3 //validate修饰的
            findC();  4
            执行顺序必须是：
               1 2 3 4
